@@ -7,4 +7,4 @@ export const slugify = (text) =>
 		.replace(/\s+/g, '-') // collapse whitespace and replace by -
 		.replace(/-+/g, '-'); // collapse dashes
 
-export const version = () => '5.0.2';
+export const version = () => '6.0.0-alpha.0';
