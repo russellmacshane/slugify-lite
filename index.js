@@ -1,6 +1,3 @@
-import { readFileSync } from 'fs';
-const pkg = JSON.parse(readFileSync(new URL('./package.json', import.meta.url)));
-
 export const slugify = (text) =>
 	text
 		.toString()
@@ -10,4 +7,4 @@ export const slugify = (text) =>
 		.replace(/\s+/g, '-') // collapse whitespace and replace by -
 		.replace(/-+/g, '-'); // collapse dashes
 
-export const version = () => pkg.version;
+export const version = () => '5.0.0';
