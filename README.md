@@ -11,10 +11,18 @@ npm install slugify-lite
 ```
 
 ## Usage
-
+### Slugify
 ```typescript
 import { slugify } from '@rmacshane-lw/slugify-lite';
 
 const slug = slugify('Hello World');
 console.log(slug); # hello-world
+```
+
+### Version
+```typescript
+import { version } from '@rmacshane-lw/slugify-lite';
+
+const version = version();
+console.log(version); # x.x.x
 ```
