@@ -1,6 +1,6 @@
 {
   "name": "@rmacshane-lw/slugify-lite",
-  "version": "5.0.2-beta.1",
+  "version": "5.0.2",
   "description": "A tiny function to slugify strings for URLs - This is a test package for me to test npm version management - Use at your own risk!",
   "main": "index.js",
   "type": "module",
