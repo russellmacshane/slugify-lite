@@ -24,5 +24,5 @@ console.log(slug); # hello-world
 import { version } from '@rmacshane-lw/slugify-lite';
 
 const version = version();
-console.log(version); # 6.0.0-alpha.1
+console.log(version); # 6.0.0
 ```
